@@ -17,10 +17,18 @@ class Homepage extends Component {
     fetch('https://guarded-wildwood-57519.herokuapp.com/artisans')
     .then(response => response.json())
     .then(artisans => {this.setState({handy: artisans}) })
+    .catch(err => {
+      console.log(err);
+      this.setState({handy: []});
+    })
   }
 
   onValueChange = (value) => {
     this.setState({ searchfield: value })
+  }
+
+  resetInput = () => {
+    this.setState({ searchfield: ""});
   }
   
   render(){
@@ -31,10 +39,11 @@ class Homepage extends Component {
     <div className="Header">
       <NavBar />
       <div className= "responsive-searchbox">
-      <SearchBox onValueChange={this.onValueChange}/>
+      <SearchBox onValueChange={this.onValueChange} resetInput={this.resetInput}/>
       </div>
       <CardList handy={filteredHandy}/>
-      <Footer/>
+      <Footer/> 
+    
     </div>
     );
   }
