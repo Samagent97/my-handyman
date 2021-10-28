@@ -1,7 +1,7 @@
 import './custom-button.css'
 
 
-const Button = (props)=> { 
+const CustomButton = (props)=> { 
     return (
         <button className='c-btn'>
             {props.btntitle}
@@ -9,4 +9,4 @@ const Button = (props)=> {
         );
     }
 
-export default Button;
+export default CustomButton;
