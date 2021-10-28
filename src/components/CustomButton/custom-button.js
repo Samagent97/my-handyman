@@ -1,13 +1,12 @@
 import './custom-button.css'
 
-const Button = (props) => {
+
+const Button = (props)=> { 
     return (
-        <button
-            className='custom-button'
-        >
-            <h1>Button</h1>
+        <button className='c-btn'>
+            {props.btntitle}
         </button>
-    );
-};
+        );
+    }
 
 export default Button;
