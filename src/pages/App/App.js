@@ -3,6 +3,7 @@ import { path } from '../../routes';
 import CustomInput from '../../components/CustomInput/custom-input';
 import CustomButton from '../../components/CustomButton/custom-button';
 import './App.css';
+import ArtisansCard from '../../components/ArtisansCard/artisans-card';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         placeholder="I am looking for a..."
       /> */}
       <CustomButton />
+      <ArtisansCard />
     </div>
   );
 }
