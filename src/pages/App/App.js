@@ -4,6 +4,7 @@
 import CustomButton from '../../components/CustomButton/custom-button';
 import './App.css';
 import ArtisansCard from '../../components/ArtisansCard/artisans-card';
+import Navbar from '../../components/NavMenu/navbar';
 
 function App() {
   return (
@@ -13,7 +14,11 @@ function App() {
         placeholder="I am looking for a..."
       /> */}
       <CustomButton />
+
       <ArtisansCard name='peter godwin' skill='mechanic' phoneno='0807766336' email='jango@email.com'/>
+      
+      <Navbar/>
+
     </div>
   );
 }
