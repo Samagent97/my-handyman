@@ -4,6 +4,7 @@ import CustomInput from '../../components/CustomInput/custom-input';
 import CustomButton from '../../components/CustomButton/custom-button';
 import './App.css';
 import ArtisansCard from '../../components/ArtisansCard/artisans-card';
+import Navbar from '../../components/NavMenu/navbar';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       /> */}
       <CustomButton />
       <ArtisansCard />
+      <Navbar/>
     </div>
   );
 }
