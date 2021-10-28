@@ -14,10 +14,13 @@ function App() {
         placeholder="I am looking for a..."
       /> */}
 
-      <CustomButton/>
+      <CustomButton />
+
       <ArtisansCard name='peter godwin' skill='mechanic' phoneno='0807766336' email='jango@email.com'/>
-      <Navbar/>
       
+      <Navbar/>
+
+ 
 
     </div>
   );
