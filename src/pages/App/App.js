@@ -1,13 +1,12 @@
-import { Switch, Route } from 'react-router-dom';
-import { path } from '../../routes';
+
+
+import SampleComponent from '../../components/SampleComponent/sample-component';
 import './App.css';
-
-
 
 function App() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="App">
+      <SampleComponent title="My Handy Man"/>
     </div>
   );
 }
