@@ -1,24 +1,22 @@
 .navbar{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: black;
     color: white;
     font-family:'Times New Roman', Times, serif;
 }
- li{
+ .links{
     display: inline;
     float: left;
  }
-li a{
+.links a{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover{
+.links a:hover{
     background-color: orange;
 }
 .active{
@@ -27,10 +25,11 @@ li a:hover{
 .push{
     float: right;
 }
-.logo{
+.link{
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
+    margin-top: 15px;
     text-decoration: none;
+    float: left;
 }

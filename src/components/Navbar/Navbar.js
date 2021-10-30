@@ -4,23 +4,23 @@ import { Link } from 'react-router-dom';
 const Navbar= () =>{
     return (
     <div className='navbar'>
-      <li className='logo'>
+      <li className='link'>
         <img alt='My HandyMan' src='/'/>
       </li>
-      <div className='push'>
-        <li>
-        <Link to="/">Profile</Link>
+      <ul className='push'>
+        <li className='links'>
+            <Link to="/">Profile</Link>
         </li>
-        <li>
-        <Link to="/">Blog</Link>
+        <li className='links'>
+            <Link to="/">Blog</Link>
         </li>
-        <li>
-        <Link to="/">Contact</Link>
+        <li className='links'>
+            <Link to="/">Contact</Link>
         </li>
-        <li>
-        <Link to="/">Logout</Link>
+        <li className='links'>
+            <Link to="/">Logout</Link>
         </li>
-      </div>
+      </ul>
     </div>
     );
   }
