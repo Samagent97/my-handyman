@@ -1,8 +1,7 @@
-import { render } from '@testing-library/react';
 import { Component } from 'react';
-import Homepage from './Homepage';
-import Register from './Register';
-import Login from './Login'
+import Homepage from '../Home/Homepage';
+import Register from '../Register/Register';
+import Login from '../Login/Login'
 import './App.css';
 
 
