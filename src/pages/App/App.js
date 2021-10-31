@@ -1,14 +1,22 @@
-import SampleComponent from '../../components/SampleComponent/sample-component';
+import { Component } from 'react';
+import Homepage from '../Home/Homepage';
+import Register from '../Register/Register';
+import Login from '../Login/Login'
 import './App.css';
-import Navbar from '../../components/Navbar/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-      <SampleComponent title="My Handy Man"/>
-    </div>
-  );
+
+class App extends Component {
+   constructor() {
+     super()
+   } 
+   
+   render() {
+return (
+  <div className='App'>
+    <Homepage/>
+  </div>
+   );
+ }
 }
 
 export default App;
