@@ -1,10 +1,10 @@
 import React from "react";
 import './Pages.css'
 
-const Login = ({title,imageUrl,CustomInput,CustomButton}) => {
+const Login = () => {
   return (
     <div className='login'>
-      <h1>{title = 'Login Page'}</h1>
+      <h1>Login</h1>
       <form className='formA'></form>
     </div>
 

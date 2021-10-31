@@ -1,11 +1,11 @@
 import React from 'react';
 import NavBar from '../../components/Navbar/Navbar';
 
-const Hompage =({title,style})  => {
+const Hompage = () => {
   return (
     <div>
       <NavBar />
-      <h1>{title='Home'}</h1>
+      <h1>Home</h1>
     </div>
   );
 }
