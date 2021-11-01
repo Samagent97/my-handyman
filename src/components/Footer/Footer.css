@@ -5,23 +5,29 @@
     color: white;
     font-family:'Times New Roman', Times, serif;
 }
-.links{
+.footer-links{
     display: inline;
     float: left;
  }
-.mine a{
+.footer-links a{
     display: block;
     color: white;
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
 }
-/* .links a:hover{
+.footer-links a:hover{
     color: orange;
-} */
+    cursor: pointer;
+}
 
 .company{
-    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* float: right; */
+
 }
 .link{
     display: block;
