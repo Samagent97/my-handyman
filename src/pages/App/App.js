@@ -1,7 +1,7 @@
 import { Component } from 'react';
 
 import Homepage from '../Home/Homepage';
-import Blog from '../Blog/Blog';
+import Blog from '../Blog/blog';
 
 import './App.css';
 

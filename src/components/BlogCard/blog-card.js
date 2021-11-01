@@ -1,8 +1,8 @@
-import './artisansblog.css';
+import './blog.css';
 
-const ArtisansBlogCard = ({title,imageUrl,description}) => {
+const BlogCard = ({title,imageUrl,description}) => {
     return(
-			<div className="artisan-card">
+			<div className="blog-card">
 				<img className='image' src={imageUrl} alt=''/>
 				<div className="card-container">
 						<h1 className='title'>{title}</h1> 
@@ -14,4 +14,4 @@ const ArtisansBlogCard = ({title,imageUrl,description}) => {
 			</div>
   );
 }
-export default ArtisansBlogCard;
+export default BlogCard;
