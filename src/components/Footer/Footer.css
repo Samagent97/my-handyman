@@ -1,9 +1,16 @@
 .footer{
     list-style-type: none;
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(61,68,81);
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family: staatliches;
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+}
+.Logo{
+    float: left;
+    padding: 2rem;
 }
 .footer-links{
     display: inline;
@@ -20,20 +27,35 @@
     color: orange;
     cursor: pointer;
 }
+.icons{
+    padding: 1.4rem;  
+}
+.fill-current{
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.fill-current:hover{
+    background-color: orange;
+}
+
+.mine{
+    padding: 1rem;
+}
 
 .company{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* float: right; */
-
 }
-.link{
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    margin-top: 15px;
-    text-decoration: none;
-    float: left;
-}
+
+@media only screen and (max-width: 768px) {
+    
+    .footer{
+      width: 100%;
+      height: 44vh;
+      padding: 1rem;
+      display: inline-block;
+    } 
+  }
+  
