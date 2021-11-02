@@ -5,7 +5,7 @@ import CustomButton from '../CustomButtton/Custom-button';
 const BlogCard = ({title,imageUrl,description}) => {
     return(
 			<div className="blog-card">
-				<img className='image' src={imageUrl} alt=''width='100%' height='20%'/>
+				<img className='image' src={imageUrl} alt=''/>
 				<div className="card-container">
 						<h1 className='title'>{title}</h1> 
 						<p className = "card-description">{description}</p>
