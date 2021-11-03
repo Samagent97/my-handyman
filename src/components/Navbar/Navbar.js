@@ -5,7 +5,7 @@ import Logo from '../../assets/Logo/Logo.png'
 
 const Navbar = () => {
     return (
-
+      
     <div className='navbar'>
       <div className='link'>
         <Link to={path.home}><img src={Logo} alt='HandyMan' style={{width:'50px'}}/></Link>
