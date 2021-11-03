@@ -4,9 +4,7 @@
     font-size: 0.7rem;
     margin-top: 2rem;
     border:0.5px solid gray;
+    outline: none;
 }
 
 
-#custom-input:focus {
-    border: none;
-}
