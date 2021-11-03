@@ -29,16 +29,14 @@
 }
 .icons{
     padding: 1.4rem;  
+    color: white;
 }
 .fill-current{
-    color: #fff;
     padding: 10px;
     cursor: pointer;
-}
-.fill-current:hover{
-    background-color: orange;
-}
+    fill: white;
 
+}
 .mine{
     padding: 1rem;
 }
@@ -47,6 +45,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
