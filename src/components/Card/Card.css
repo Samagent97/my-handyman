@@ -1,39 +1,50 @@
 
-.card {
-    display: inline-block;
-    align-items: center;  
+.card-container {
+    display: inline-flex;
+    flex-direction: row;
     background-color: transparent;
 	border: 0.5px solid #7f7f7f7f;
-    height: 200px;
-    width: 20%;
+    height: 190px;
+    width: 200px;
 	margin: 2rem;
-	/* border-radius: 30px;  */
     padding-bottom: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-    /* max-width: 25rem; */
-    /* margin: auto; */
     text-align: center;
     border-radius: 5px;
     overflow: hidden;
-    /* display: flex; */
     flex-wrap: wrap;
-    /* width: 100%; */
     justify-content: center;
-    min-width: 20%;
-    
-    
-}
-
-.card img {
-    height: auto;
-    width: 100%;
-    object-fit: cover;
+    min-height: 180px;
     
 }
 
-/* .call {
-    width: 100%;
-} */
+.card-container img{
+    width: 170%;
+}
+.btn {
+    align-items: center;
+    padding-right: 100px;
+    
+}
+
+.text {
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.card-container a:link {
+    text-decoration: none;
+    font-size: small;
+    padding-bottom: -100px;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 
 
 
