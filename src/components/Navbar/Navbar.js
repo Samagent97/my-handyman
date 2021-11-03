@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import {path} from '../../routes';
 
 const Navbar = () => {
     return (
@@ -9,13 +10,13 @@ const Navbar = () => {
       </div>
       <ul className='push'>
         <li className='links'>
-            <Link to="/">Profile</Link>
+            <Link to={path.profile}>Profile</Link>
         </li>
         <li className='links'>
-            <Link to="/">Blog</Link>
+            <Link to={path.blog}>Blog</Link>
         </li>
         <li className='links'>
-            <Link to="/">Contact</Link>
+            <Link to="/b">Contact</Link>
         </li>
         <li className='links'>
             <Link to="/">Logout</Link>
