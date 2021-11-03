@@ -7,12 +7,13 @@ import { handy } from '../../components/Card/handy';
 import CustomInput from '../../components/CustomInput/Custom-Input'
 
 
-const Hompage = () => {
+const Homepage = () => {
   return (
     <div className="Header">
       
       <NavBar />
       <CustomInput  placeholder="I am looking for ..." style={{width:"35.5em"}} />
+
       <CustomButton title ="Search" style={{width:"7rem"}} />
       <CardList handy={handy}/>
       
@@ -21,4 +22,4 @@ const Hompage = () => {
   );
 }
 
-export default Hompage;
+export default Homepage;
