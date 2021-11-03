@@ -9,7 +9,7 @@ const BlogCard = ({title,imageUrl,description}) => {
 				<div className="card-container">
 						<h1 className='title'>{title}</h1> 
 						<p className = "card-description">{description}</p>
-						<CustomButton className="btn" title ="Read more" style = {{ background:'#f0794f', color:'white', }}/>
+						 <CustomButton  title ="Read more" />
 				</div>
 			</div>
   );
