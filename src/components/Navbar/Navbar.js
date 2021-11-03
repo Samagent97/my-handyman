@@ -8,7 +8,7 @@ const Navbar = () => {
 
     <div className='navbar'>
       <div className='link'>
-        <a href='/home'><img src={Logo} alt='HandyMan' style={{width:'80px'}}/></a>
+        <a href='/'><img src={Logo} alt='HandyMan' style={{width:'80px'}}/></a>
       </div>
       <ul className='push'>
         <li className='links'>
