@@ -10,10 +10,9 @@ const Hompage = () => {
   return (
     <div>
       <NavBar />
- 
-      <CustomInput/>
+      <CustomInput  placeholder="Enter your name"/>
+      <CustomButton title ="call"  />
 
-      <CustomButton title ="call" style = {{ background:'#f0794f', color:'white' ,width:'100px'}} />
       <h1>Home</h1>
       <Footer/>
     </div>

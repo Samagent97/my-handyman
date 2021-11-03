@@ -1,10 +1,8 @@
 import './Custom-Input.css'
 
-const CustomInput = ({style, type , placeholder, textarea}) => {
+const CustomInput = ({style, type , placeholder,  }) => {
     return (
-        <input id ="CustomInput" style = {style} type ={type} placeholder = {placeholder}  >
-           
-        </input>
+        <input id ="custom-input" style = {style} type ={type} placeholder = {placeholder}  />
     )
 }
 export default CustomInput;

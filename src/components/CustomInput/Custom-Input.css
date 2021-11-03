@@ -1,8 +1,12 @@
-#CustomInput {
+#custom-input {
     border-radius: 5px;
-    height: 2rem;
-    font-size: 12px;
-    border-color: gray;
-    
-     
+    height: 1.5rem;
+    font-size: 0.7rem;
+    margin-top: 2rem;
+    border:0.5px solid gray;
+}
+
+
+#custom-input:focus {
+    border: none;
 }
