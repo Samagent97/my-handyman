@@ -6,6 +6,7 @@ import CardList from '../../components/Card/CardList'
 import { handy } from '../../components/Card/handy';
 import CustomInput from '../../components/CustomInput/Custom-Input'
 
+
 const Hompage = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Hompage = () => {
       {/* <CustomInput  placeholder="Enter your name"/>
       <CustomButton title ="call"  /> */}
       <CardList handy={handy}/>
+      
       <Footer/>
     </div>
   );
