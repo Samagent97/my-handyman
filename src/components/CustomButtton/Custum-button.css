@@ -1,16 +1,17 @@
 #custom-button {
-    text-align: center;
-    font-size: 0.7rem;
-    border-radius: 5px;
-    border: none;
-    background:#f0794f ;
-    color: white;
-    cursor: pointer;
-    margin: 1rem;
-    padding: 0.8em 2rem;
-    transition: all .1s ease-in-out;
-    /* height: 2rem; */
+  text-align: center;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  background: #f0794f;
+  color: white;
+  cursor: pointer;
+  margin: 1rem;
+  padding: 0.8em 2rem;
+  transition: all 0.1s ease-in-out;
+  /* height: 2rem; */
 }
+
 #custom-button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }

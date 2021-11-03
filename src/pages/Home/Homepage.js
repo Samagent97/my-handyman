@@ -11,8 +11,8 @@ const Hompage = () => {
     <div className="Header">
       
       <NavBar />
-      <CustomInput  placeholder="Enter your name"/>
-      <CustomButton title ="Submit" style={{width:""}} />
+      <CustomInput  placeholder="I am looking for ..." style={{width:"35.5em"}} />
+      <CustomButton title ="Search" style={{width:"3rem"}} />
       <CardList handy={handy}/>
       <Footer/>
     </div>
