@@ -1,20 +1,20 @@
 export const handy = [
     {
         id: 1,
-        name: 'Ahemen kelvin',
-        skill: 'Plumber',
+        name: 'Triumphant Oke',
+        skill: 'Hairdresser',
         ratings: 'ratings',
     },
     {
         id: 2,
-        name: 'Ahemen kelvin',
-        skill: 'Plumber',
+        name: 'Goodnews Ekpot',
+        skill: 'Writer',
         ratings: 'ratings',
     },
     {
         id: 3,
-        name: 'Ahemen kelvin',
-        skill: 'Plumber',
+        name: 'Damilola Oke',
+        skill: 'Baker',
         ratings: 'ratings',
     },
     {
@@ -25,14 +25,14 @@ export const handy = [
     },
     {
         id: 5,
-        name: 'Ahemen kelvin',
-        skill: 'Plumber',
+        name: 'Patience Pam',
+        skill: 'Tailor',
         ratings: 'ratings',
     },
     {
         id: 6,
-        name: 'Ahemen kelvin',
-        skill: 'Plumber',
+        name: 'Ayomide Stuffy',
+        skill: 'Painter',
         ratings: 'ratings',
     },
     
