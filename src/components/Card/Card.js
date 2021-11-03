@@ -1,6 +1,7 @@
 import './Card.css';
 import CustomButton from '../CustomButtton/Custom-button'
 import CardList from './CardList';
+import StarRating from './StarRating';
 
 
 const Card = (props) => {
@@ -11,7 +12,7 @@ const Card = (props) => {
                 <h4>{props.name}</h4>
                 <p>{props.skill}</p>
                 <p>{props.address}</p>
-                <p>{props.ratings}</p>
+                <StarRating/>
                 <a href="url">VIEW ON MAP</a>   
             </div>
             <div className="btn">
