@@ -1,5 +1,4 @@
 import { Component } from 'react';
-
 import Homepage from '../Home/Homepage';
 import Blog from '../Blog/Blog';
 import {path} from '../../routes';

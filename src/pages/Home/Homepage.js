@@ -8,10 +8,11 @@ import CustomInput from '../../components/CustomInput/Custom-Input'
 
 const Hompage = () => {
   return (
-    <div>
+    <div className="Header">
+      
       <NavBar />
-      {/* <CustomInput  placeholder="Enter your name"/>
-      <CustomButton title ="call"  /> */}
+      <CustomInput  placeholder="Enter your name"/>
+      <CustomButton title ="Submit" style={{width:""}} />
       <CardList handy={handy}/>
       <Footer/>
     </div>
