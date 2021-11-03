@@ -2,15 +2,15 @@
   display: inline-block;
   flex-wrap: wrap;
   border: 0.5px solid #cfcaca7f;
-  width: 15rem;
+  width: 20rem;
   margin: 2rem;
-  text-align: start;
+  text-align: center;
   font-size: 0.8rem;
   padding-bottom: 10px;
   border-radius: 5px;
   max-width: 55rem;
   overflow: hidden;
-}
+  }
 
 .image {
   object-fit: cover;
@@ -19,12 +19,17 @@
 }
 
 .card-container {
-  padding-left: 1rem;
-  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  width: 16rem;
+  border: none;
 }
 .card-container .title {
   color: #7f7f7f7f;
 }
 .btn {
   align-items: center;
+}
+.card-description{
+  object-fit: cover;
 }
