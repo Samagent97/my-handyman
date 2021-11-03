@@ -2,7 +2,7 @@ import "./Custum-button.css"
 
 const CustomButton = ({title , style}) => {
     return (
-    <button id ="CustomButton" style={style}>
+    <button id ="custom-button" style={style}>
       {title}
     </button>
     );
