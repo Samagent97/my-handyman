@@ -12,7 +12,7 @@ const Hompage = () => {
       
       <NavBar />
       <CustomInput  placeholder="I am looking for ..." style={{width:"35.5em"}} />
-      <CustomButton title ="Search" style={{width:"3rem"}} />
+      <CustomButton title ="Search" style={{width:"rem"}} />
       <CardList handy={handy}/>
       <Footer/>
     </div>
