@@ -1,12 +1,14 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import {path} from '../../routes';
+import Logo from '../../assets/Logo/Logo.png'
 
 const Navbar = () => {
     return (
+
     <div className='navbar'>
       <div className='link'>
-        <img alt='My Handy Man' src='/'/>
+        <a href='/home'><img src={Logo} alt='HandyMan' style={{width:'80px'}}/></a>
       </div>
       <ul className='push'>
         <li className='links'>
