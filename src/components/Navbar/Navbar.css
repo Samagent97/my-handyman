@@ -8,16 +8,25 @@
  .links{
     display: inline;
     float: left;
+    margin-right: 1rem;
+    padding-top: 15px;
  }
 .links a{
     display: block;
     color: white;
     text-align: center;
-    padding: 22px 16px;
+    margin-right: 5px;
     text-decoration: none;
+    padding-bottom: 2px;
+    padding-right: 0;
+    padding-left: 0;
 }
 .links a:hover{
     color: orange;
+    border-bottom: 1px solid orange;
+    padding-bottom: 2px;
+    padding-right: 0;
+    padding-left: 0;
 }
 .push{
     float: right;
@@ -25,8 +34,9 @@
 .link{
     color: white;
     margin-top: auto;
-    margin-left: 25px;
-    padding-bottom: 0px;
+    margin-left: 6rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-decoration: none;
     float: left;
 }
