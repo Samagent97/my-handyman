@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 // import { blogger } from '../../utils/blogger';
 import CustomInput from '../../components/CustomInput/Custom-Input';
 import CustomButton from '../../components/CustomButtton/Custom-button';
-import BlogList from '../../components/BlogCard/BlogList';
+// import BlogList from '../../components/BlogCard/BlogList';
 import Footer from '../../components/Footer/Footer';
 
 
