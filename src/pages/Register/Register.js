@@ -1,5 +1,5 @@
 import React from "react";
-import {path} from '../../routes';
+// import {path} from '../../routes';
 
 
 const Register = () => {
