@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import { blogger } from '../../utils/blogger';
+// import { blogger } from '../../utils/blogger';
 import CustomInput from '../../components/CustomInput/Custom-Input';
 import CustomButton from '../../components/CustomButtton/Custom-button';
 import BlogList from '../../components/BlogCard/BlogList';
@@ -13,7 +13,7 @@ const Blog = () => {
       <Navbar/>
       <CustomInput placeholder="I am looking for ..." style={{width:'35.5rem'}}/>
       <CustomButton title="Search"/>
-      <BlogList blogger={blogger}/>  
+      {/* <BlogList blogger={blogger}/>   */}
       <Footer/>
     </div>
   );
