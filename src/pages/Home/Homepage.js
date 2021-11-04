@@ -3,9 +3,9 @@ import CustomButton from '../../components/CustomButtton/Custom-button';
 import NavBar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import CardList from '../../components/CardList/CardList';
-import { handy } from '../../utils'
-import CustomInput from '../../components/CustomInput/Custom-Input'
-import './Homepage.css'
+import { handy } from '../../utils/handy';
+import CustomInput from '../../components/CustomInput/Custom-Input';
+import './Homepage.css';
 
 
 
