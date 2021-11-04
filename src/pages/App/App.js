@@ -6,6 +6,8 @@ import './App.css';
 import {Switch, Route } from 'react-router-dom';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
+
+import BlogCard from '../../components/BlogCard/blog-card';
 import { blogger } from '../../Utils/blogger';
 
 
@@ -22,8 +24,8 @@ class App extends Component {
           <Route exact path={path.blog} component= {Blog} />
           <Route exact path={path.login} component= {Login} />
           <Route exact path={path.register} component= {Register} />
-          <Route exact path={`${path.blogView}/:id`} component={(blogger) => {
-            return <h1>hi: {blogger.match.params.id}</h1>
+          <Route exact path={`${path.viewBlog}/:id`} component={(blogger) => {
+            return <h1>{blogger.match.params.id}</h1>
             }} />
         </Switch>
       </div>
