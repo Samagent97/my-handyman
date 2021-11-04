@@ -4,16 +4,16 @@ import Blog from '../Blog/Blog';
 import {path} from '../../routes';
 import './App.css';
 
-import {Switch,Redirect, Route } from 'react-router-dom';
+import {Switch, Route } from 'react-router-dom';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
 
 
 
 class App extends Component {
-   constructor() {
-     super()
-   } 
+  //  constructor() {
+  //    super()
+  //  } 
    
    render() {
     return (
