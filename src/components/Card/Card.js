@@ -21,7 +21,7 @@ const Card = (props) => {
                 </div>              
             
             <div className="btn">
-                <CustomButton title ="call" style = {{ background:'#f0794f', color:'white' ,width:'150%',}} />
+                <CustomButton title ="call" style = {{ width:'100%',}} />
              </div>
            
     
