@@ -25,7 +25,6 @@ class App extends Component {
           <Route exact path={`${path.viewBlog}/:id`} component={(props) => {
             return <h1>{props.match.params.id}</h1>
             }} />
-            {/* <Route exact path={path.about} component= {AboutUs} /> */}
         </Switch>
       </div>
       );
