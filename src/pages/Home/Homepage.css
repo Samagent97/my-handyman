@@ -4,3 +4,17 @@
     src: url("https://fonts.googleopi.com/css2?family=roboto:ital,wght@1,300&display=swap");
   }
 }
+.responsive-searchbox {
+  display: flex;
+  justify-content: center;
+}
+@media  screen and (max-width:768px) {
+  .responsive-searchbox{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+
+}
+
