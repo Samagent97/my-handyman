@@ -5,18 +5,18 @@ const BlogList = ({blogger}) => {
     const cardComponent = blogger.map((user,i) =>{
         return(
             <BlogCard
-            key={i}
-            id={blogger[i].id}
-            title={blogger[i].title}
-            imageUrl={blogger[i].imageUrl}
-            description={blogger[i].description}
+                key={i}
+                id={user.id}
+                title={user.title}
+                imageUrl={user.imageUrl}
+                description={user.description}
             />
         )
     })
     return(
         <div>
-        {cardComponent}
-      </div>
+            {cardComponent}
+        </div>
 
     );
 }
