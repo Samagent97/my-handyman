@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link to={path.blog}>Blog</Link>
         </li>
         <li className='links'>
-            <Link to="/b">Contact</Link>
+            <Link to={path.blogView}>Contact</Link>
         </li>
         <li className='links'>
             <Link to="/">Logout</Link>

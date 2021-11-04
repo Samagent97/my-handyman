@@ -1,0 +1,21 @@
+.login {
+  display: flex;
+
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 150px 0px 150px 0px;
+  background-color: chartreuse;
+}
+.header {
+  display: block;
+  justify-content: space-between;
+  background-color: chocolate;
+}
+.img {
+  justify-content: flex-end;
+}
+.form {
+  display: block;
+  background-color: darkblue;
+}
