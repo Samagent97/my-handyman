@@ -8,7 +8,7 @@ import Login from '../Login/Login';
 import Register from '../Register/Register';
 
 import BlogCard from '../../components/BlogCard/blog-card';
-import { blogger } from '../../Utils/blogger';
+import { blogger } from '../../utils/blogger';
 
 
 class App extends Component {
