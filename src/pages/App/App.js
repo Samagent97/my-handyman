@@ -18,13 +18,15 @@ class App extends Component {
    render() {
     return (
       <div className='App'>
-     <Switch>
-       <Route exact path={path.home} component= {Homepage} />
-       <Route exact path={path.blog} component= {Blog} />
-       <Route exact path={path.Login} component= {Login} />
-       <Route exact path={path.Register} component= {Register} />
-            </Switch>
-
+        <Switch>
+          <Route exact path={path.home} component= {Homepage} />
+          <Route exact path={path.blog} component= {Blog} />
+          <Route exact path={path.login} component= {Login} />
+          <Route exact path={path.register} component={Register} />
+          <Route exact path={`${path.blogView}/:id`} component={(props) => {
+            return <h1>Title: {props.match.params.id}</h1>
+            }} />
+        </Switch>
       </div>
       );
   }

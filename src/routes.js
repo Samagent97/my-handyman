@@ -3,7 +3,7 @@ export const path = Object.freeze({
 	login: '/login',
 	register: '/register',
 	blog: '/blog',
-	blogView:'/blogView',
+	blogView:'/view',
 	profile: '/profile',
 	contact: '/contact',
 });
