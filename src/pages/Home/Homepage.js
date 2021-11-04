@@ -3,7 +3,7 @@ import CustomButton from '../../components/CustomButtton/Custom-button';
 import NavBar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import CardList from '../../components/CardList/CardList';
-import { handy } from '../../Utility/handy';
+import { handy } from '../../utils/handy';
 import CustomInput from '../../components/CustomInput/Custom-Input'
 import './Homepage.css'
 
@@ -18,7 +18,6 @@ const Homepage = () => {
         <CustomButton title ="Search" style={{ width: '10%'}} />
       </div>
       <CardList handy={handy}/>
-      
       <Footer/>
     </div>
   );

@@ -11,7 +11,7 @@ const BlogCard = ({title,imageUrl,description}) => {
 				<div className="blog-card-container">
 						<h1 className='title'>{title}</h1> 
 						<p className = "card-description">{description}</p>
-						<Link to={`${path.blogView}/${title}`}>
+						<Link to={`${path.viewBlog}/${title}`}>
 						 <CustomButton  title ="Read more" />
 						</Link>
 				</div>
