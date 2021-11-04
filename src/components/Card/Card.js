@@ -1,7 +1,7 @@
 import './Card.css';
 import CustomButton from '../CustomButtton/Custom-button'
-import CardList from './CardList';
-import StarRating from './StarRating';
+import CardList from '../CardList/CardList';
+import StarRating from '../StarRating/StarRating';
 
 
 const Card = (props) => {
