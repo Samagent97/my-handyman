@@ -6,4 +6,6 @@ export const path = Object.freeze({
 	viewBlog:'/view-blog',
 	profile: '/profile',
 	contact: '/contact',
+	about:'/about',
+	terms:'/terms'
 });

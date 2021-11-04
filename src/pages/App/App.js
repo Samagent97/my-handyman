@@ -6,10 +6,8 @@ import './App.css';
 import {Switch, Route } from 'react-router-dom';
 import Login from '../Login/Login';
 import Register from '../Register/Register';
-
-import BlogCard from '../../components/BlogCard/blog-card';
 import { blogger } from '../../utils/blogger';
-
+import AboutUs from '../AboutUs/AboutUs'
 
 class App extends Component {
   //  constructor() {
@@ -27,6 +25,7 @@ class App extends Component {
           <Route exact path={`${path.viewBlog}/:id`} component={(blogger) => {
             return <h1>{blogger.match.params.id}</h1>
             }} />
+            <Route exact path={path.about} component= {AboutUs} />
         </Switch>
       </div>
       );
