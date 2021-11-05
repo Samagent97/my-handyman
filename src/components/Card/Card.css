@@ -22,9 +22,8 @@ object-fit: cover;
     margin-top: 0.5rem;
 }
 
-h3{
+h4{
     margin: 0;
-    padding: 0;
 }
 
 .btn{
@@ -43,4 +42,7 @@ a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
+  }
+  .text p {
+      margin: 0;
   }
