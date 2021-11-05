@@ -1,18 +1,18 @@
-.Responsive-form {
+/* .responsive-contact {
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
     margin-bottom: 1rem;
-  }
+  } */
 
   
-  .Responsive-form {
-    display: inline-flex;
+  .responsive-contact {
+    /* display: inline-flex;
     flex-direction: column;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    flex-wrap: wrap;
-
+    flex-wrap: wrap; */
+    margin-bottom: 7rem;
   
   }
   
