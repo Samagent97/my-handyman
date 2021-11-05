@@ -6,10 +6,10 @@
   background: #f0794f;
   color: white;
   cursor: pointer;
-  margin: 1rem;
-  padding: 0.8em 2rem;
+  margin: 1rem 0.5rem;
+  padding: 0.8em 0 ;
   transition: all 0.1s ease-in-out;
-  /* height: 2rem; */
+  
 }
 
 #custom-button:hover {

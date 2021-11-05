@@ -1,4 +1,6 @@
 import React from "react";
+// import {path} from '../../routes';
+
 
 const Register = () => {
   return (
