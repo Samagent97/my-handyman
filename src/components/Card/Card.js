@@ -7,7 +7,7 @@ const Card = (props) => {
     return(
         <div className="card-container">
             <div className="image-container">
-            <img alt = "" src="https://picsum.photos/id/1005/400/250"/>
+            <img alt = "Profile Pic" src="https://picsum.photos/id/1005/400/250"/>
             </div>
             <div className="card-content">
             <div className="text">
@@ -17,16 +17,12 @@ const Card = (props) => {
                 <StarRating/>
                 <a href="url">VIEW ON MAP</a>   
             </div>
-                </div>              
-            
             <div className="btn">
                 <CustomButton title ="call" style = {{ width:'100%',}} />
              </div>
-           
-    
-        </div>
-
-    );
+                </div>              
+          </div>
+         );
 }
 
 
