@@ -11,8 +11,8 @@ const Blog = () => {
   return (
     <div>
       <Navbar/>
-      <CustomInput placeholder="I am looking for ..." style={{width:'35.5rem'}}/>
-      <CustomButton title="Search"/>
+      <CustomInput placeholder="I am looking for ..." style={{width:'20.5rem'}}/>
+      <CustomButton title="Search" style={{width:"7rem"}}/>
       <BlogList blogger={blogger}/>  
       <Footer/>
     </div>

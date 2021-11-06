@@ -12,7 +12,7 @@ const BlogCard = ({title,imageUrl,description}) => {
 						<h1 className='title'>{title}</h1> 
 						<p className = "card-description">{description}</p>
 						<Link to={`${path.viewBlog}/${title}`}>
-						 <CustomButton  title ="Read more" />
+						 <CustomButton style={{width:"7rem"}} title ="Read more" />
 						</Link>
 				</div>
 			</div>
