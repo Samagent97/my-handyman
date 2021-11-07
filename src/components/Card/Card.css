@@ -24,6 +24,8 @@ object-fit: cover;
 
 h4{
     margin: 0;
+    color: #000;
+    /* background-color: aqua; */
 }
 
 .btn{
@@ -46,4 +48,5 @@ a:hover {
   .text p {
       margin: 0;
       font-size: small;
+      color: black;
   }

@@ -8,7 +8,6 @@ import CustomInput from '../../components/CustomInput/Custom-Input';
 import './Homepage.css';
 
 
-
 const Homepage = () => {
   return (
     <div className="Header">

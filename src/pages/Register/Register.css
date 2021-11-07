@@ -2,8 +2,8 @@
 .register {
     display: flex;
     justify-content: center; 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
     width: 100vw;
     height: 100vh;
 
@@ -47,6 +47,7 @@
         display: inline;
         width: 100vw;
         height: 100vh;
+        float: none;
         
 
 
@@ -55,6 +56,7 @@
         display: block;
         width: 100vw;
         height: 100vh;
+        overflow: hidden;
 
     }
     .img{
