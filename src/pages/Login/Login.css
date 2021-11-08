@@ -7,7 +7,8 @@
   overflow: hidden;
 }
 .text {
-  color: white;
+  color: rgb(37, 34, 34);
+  font-size: large;
 }
 
 .image {
@@ -21,7 +22,7 @@
 .form {
   display: inline-flex;
   flex-direction: column;
-  background-color: rgb(21, 19, 137);
+  /* background-color: rgb(21, 19, 137); */
   justify-content: center;
   width: 50%;
 }
@@ -31,12 +32,17 @@
     width: 100vw;
     float: none;
     overflow: hidden;
+    font-size: 3rem;
   }
   .form {
     display: block;
+    justify-content: center;
+    align-content: center;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    font-weight: bold;
+    /* font-size: 3rem; */
   }
   .image {
     display: none;

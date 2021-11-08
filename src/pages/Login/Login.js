@@ -11,11 +11,11 @@ const Login = (props) => {
       <div className="form">
         <form className="text" method="">
             <h1>Login</h1>
-                <CustomInput type="Email" placeholder='Email' style={{width:"16rem",padding:"5px"}}/>
+                <CustomInput type="Email" placeholder='Email' style={{width:"16rem",padding:"10px"}}/>
                 <br/>
-                <CustomInput type="password" placeholder='Password' style={{width:"16rem",padding:"5px"}}/>
+                <CustomInput type="password" placeholder='Password' style={{width:"16rem",padding:"10px"}}/>
                 <br/>
-                <CustomButton title="Login" style={{width:"13.5rem"}}/>
+                <CustomButton title="Login" style={{width:"13.5rem",padding:"15px", }}/>
                     <p>forgot password?</p>
                 <Link to={path.register} >Don't have an account?Register</Link>
           </form>
