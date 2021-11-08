@@ -13,10 +13,10 @@
     /* background-color: chartreuse;  */
 }
 .register h1{
-    color: white;
+    color: black
 }
 .register p{
-    color: white;
+    color: black
 }
 .img {
     justify-content: flex-end;
@@ -33,7 +33,7 @@
 .Register-form {
     display: inline-flex;
     flex-direction: column;
-    background-color: rgb(51, 49, 143);
+    background-color: white;
     justify-content: center;
     /* margin-top: 1rem;
     margin-bottom: 1rem;
