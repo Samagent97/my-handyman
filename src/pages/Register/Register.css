@@ -6,9 +6,6 @@
     /* margin-bottom: 1rem; */
     width: 100vw;
     height: 100vh;
-
-    
-
     /* padding: 150px 0px 150px 0px; */
     /* background-color: chartreuse;  */
 }
@@ -18,16 +15,15 @@
 .register p{
     color: black
 }
-.img {
-    justify-content: flex-end;
-    padding: 0rem;
-    background-position: center;
-    background-size: cover;
-    overflow: scroll;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.02rem; */
+
+.background-img {
     width: 50%;
+}
+
+.background-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .Register-form {

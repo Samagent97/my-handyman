@@ -27,7 +27,9 @@ const Register = (props) => {
            <p>forgot password? </p>
           <Link to={path.login}><p>Already have an account? Login</p></Link>
        </form>
+    <div className='background-img'>
     <img className="img" src="https://media.istockphoto.com/photos/group-of-young-friends-catching-up-picture-id1243622637?b=1&k=20&m=1243622637&s=170667a&w=0&h=eNN6RjTD_QjDddpxKk5j_jvQE18T-7k1wyd5as_tifw=" alt ="Background"/>
+    </div>
     </div>
 
   );
