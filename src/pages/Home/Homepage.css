@@ -8,12 +8,15 @@
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 500px) {
+@media screen and(max-width: 500px) {
   .responsive-searchbox {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
+  }
+  .button {
+    /* width: 40%; */
   }
 }
