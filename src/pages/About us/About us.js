@@ -2,13 +2,8 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-// import { path } from '../../routes';
 import './About us.css'
 import Ham from '../../images/Ham.jpg';
-import CustomButton from '../../components/CustomButtton/Custom-button';
-import { Link } from 'react-router-dom';
-import { path } from '../../routes';
-import BlogCard from '../../components/BlogCard/blog-card';
 
 
 function Aboutus({title,imageUrl,description}) {
@@ -20,7 +15,7 @@ function Aboutus({title,imageUrl,description}) {
         
             <div className="work">
                     <div className="about">
-                    <img className='home-image' src={Ham} style={{}}/>
+                    <img className='home-image' src={Ham} alt ="backgroundpic"style={{}}/>
                   </div>
                   <div className="title1">  <h1>About Us</h1>
                 <h2 className="header">MY HANDYMAN</h2>
