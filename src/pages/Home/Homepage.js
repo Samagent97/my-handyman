@@ -13,8 +13,8 @@ const Homepage = () => {
     <div className="Header">
       <NavBar />
       <div className= "responsive-searchbox">
-        <CustomInput  placeholder="I am looking for ..." style={{width:"50%"}} />
-        <CustomButton title ="Search" style={{ width: '20%'}} />
+        <CustomInput  placeholder="I am looking for ..." style={{width:"60%"}} />
+        <CustomButton title ="Search" style={{ width: '10%'}} />
       </div>
       <CardList handy={handy}/>
       <Footer/>

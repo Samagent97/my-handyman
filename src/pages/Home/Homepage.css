@@ -7,14 +7,15 @@
 .responsive-searchbox {
   display: flex;
   justify-content: center;
+  /* background-color: aqua; */
 }
 @media screen and(max-width: 500px) {
   .responsive-searchbox {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
   }
   .button {
     /* width: 40%; */
