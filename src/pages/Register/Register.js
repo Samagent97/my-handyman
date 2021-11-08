@@ -12,17 +12,17 @@ const Register = (props) => {
         <form className='Register-form'>
         <h1>Register</h1>
         <div className = 'input'>
-          <CustomInput type="Full Name"  placeholder='Full Name' style={{width:"16rem",padding:"12px"}}/>
+          <CustomInput type="Full Name"  placeholder='Full Name' style={{width:"16rem",padding:"4px"}}/>
           <br/>
-          <CustomInput type="Email"  placeholder='Email' style={{width:"16rem",padding:"12px"}}/>
+          <CustomInput type="Email"  placeholder='Email' style={{width:"16rem",padding:"4px"}}/>
           <br/>
-          <CustomInput type="Phone No."  placeholder='Phone No.' style={{width:"16rem",padding:"12px"}}/>
+          <CustomInput type="Phone No."  placeholder='Phone No.' style={{width:"16rem",padding:"4px"}}/>
           <br/>
-          <CustomInput type="password"  placeholder='Password' style={{width:"16rem",padding:"12px"}}/>
+          <CustomInput type="password"  placeholder='Password' style={{width:"16rem",padding:"4px"}}/>
           <br/>
-          <CustomInput type="password"  placeholder='Confirm Password' style={{width:"16rem",padding:"12px"}}/>
+          <CustomInput type="password"  placeholder='Confirm Password' style={{width:"16rem",padding:"4px"}}/>
           <br/>
-          <CustomButton title="Register" style={{width:"17rem",padding:"12px", height:"3rem"}}/>
+          <CustomButton title="Register" style={{width:"17rem",padding:"12px", height:"2rem"}}/>
            <p>forgot password? </p>
           <Link to={path.login}><p>Already have an account? Login</p></Link>
           </div>

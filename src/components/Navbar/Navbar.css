@@ -4,6 +4,7 @@
     background-color: rgb(61,68,81);
     color: white;
     font-family:'Times New Roman', Times, serif;
+    width: 100vw;
 }
  .links{
     display: inline;
@@ -39,3 +40,4 @@
     text-decoration: none;
     float: left;
 }
+
