@@ -8,6 +8,7 @@ import Login from '../Login/Login';
 import Register from '../Register/Register';
 import ViewBlog from '../ViewBlog/ViewBlog';
 import Contact from '../Contact/Contact';
+import Aboutus from '../About us/About us';
 // import { blogger } from '../../utils/blogger';
 // import AboutUs from '../AboutUs/AboutUs'
 
@@ -26,6 +27,7 @@ class App extends Component {
           <Route exact path={path.register} component= {Register} />
           <Route exact path={`${path.viewBlog}/:id`} component={ViewBlog}/>
           <Route exact path={path.contact} component= {Contact} />
+          <Route exact path={path.about} component= {Aboutus} />
         </Switch>
       </div>
       );
