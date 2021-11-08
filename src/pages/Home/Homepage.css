@@ -8,13 +8,12 @@
   display: flex;
   justify-content: center;
 }
-@media  screen and (max-width:768px) {
-  .responsive-searchbox{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+@media screen and (max-width: 500px) {
+  .responsive-searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
   }
-
 }
-

@@ -14,7 +14,7 @@ const Homepage = () => {
       <NavBar />
       <div className= "responsive-searchbox">
         <CustomInput  placeholder="I am looking for ..." style={{width:"50%"}} />
-        <CustomButton title ="Search" style={{ width: '10%'}} />
+        <CustomButton title ="Search" style={{ width: '40%'}} />
       </div>
       <CardList handy={handy}/>
       <Footer/>
