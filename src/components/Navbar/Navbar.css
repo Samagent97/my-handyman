@@ -39,3 +39,11 @@
     text-decoration: none;
     float: left;
 }
+@media screen and (max-width: 1024px){
+ .links{
+        display: none;
+ }
+ .link{
+     margin-left: 1.5rem;
+    }
+}
