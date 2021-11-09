@@ -12,7 +12,7 @@ const Profile = () =>{
         <div className='profil-image'>
         <img alt = "Profile Pic" src="https://picsum.photos/id/1005/400/250"/>
         </div>
-        <div className='prof'>
+        <div className='profile-form'>
             <p>Full Name</p>
             <CustomInput type="Text" placeholder='' style={{width:"100%", height:"2rem"}}/>
             <p>Username</p>
