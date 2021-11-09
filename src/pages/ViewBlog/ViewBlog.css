@@ -1,7 +1,7 @@
 .view-blog-summary{
-    width: 30rem;
+    margin: 1rem;
+    text-align: justify;
     color: #7f7f7f;
-
 }
 .view-blog-image{
     width: 100%;
@@ -11,20 +11,19 @@
 .image-title{
     position: absolute;
     top:8rem;
-    left:40%;
-    font-size: 4rem;
+    text-align: center;
     color: rgb(61, 68, 81);
 }
 .view-blog-description{
     text-align: center;
-    width: 40rem; 
-    margin: 3rem;
+    margin: 1rem;
     color: #7f7f7f;
     line-height: 30px;
 }
-.view-blog-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+@media screen and (max-width:768px) {
+    .view-blog {
+       float: none;
+    }
 }
+
