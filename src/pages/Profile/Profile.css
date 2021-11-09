@@ -1,0 +1,24 @@
+.prof{
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 20rem;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.profil-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+.prof p{
+    margin: 1rem;
+}
+.profile-btn{
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: -10px;
+}
