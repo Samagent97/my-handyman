@@ -3,6 +3,7 @@ import CustomButton from '../CustomButtton/Custom-button'
 import StarRating from '../StarRating/StarRating';
 
 
+
 const Card = (props) => {
     return(
         <div className="card-container">
@@ -18,7 +19,7 @@ const Card = (props) => {
                 <a href="url">VIEW ON MAP</a>   
             </div>
             <div className="btn">
-                <CustomButton title ="call" style = {{ width:'100%',}} />
+                <CustomButton  title ="call" style = {{ width:'100%',}}  />
              </div>
                 </div>              
           </div>

@@ -8,6 +8,7 @@ import Login from '../Login/Login';
 import Register from '../Register/Register';
 import ViewBlog from '../ViewBlog/ViewBlog';
 import Contact from '../Contact/Contact';
+import Termspage from '../Terms/Termspage';
 // import { blogger } from '../../utils/blogger';
 // import AboutUs from '../AboutUs/AboutUs'
 
@@ -21,6 +22,7 @@ class App extends Component {
       <div className='App'>
         <Switch>
           <Route exact path={path.home} component= {Homepage} />
+          <Route exact path={path.terms} component= {Termspage} />
           <Route exact path={path.blog} component= {Blog} />
           <Route exact path={path.login} component= {Login} />
           <Route exact path={path.register} component= {Register} />
