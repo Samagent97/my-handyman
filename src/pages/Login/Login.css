@@ -5,6 +5,7 @@
   height: 100vh;
   float: none;
   overflow: hidden;
+ 
 }
 .text {
   color: rgb(37, 34, 34);
@@ -25,6 +26,7 @@
   /* background-color: rgb(21, 19, 137); */
   justify-content: center;
   width: 50%;
+  
 }
 @media only screen and (max-width: 500px) {
   .login {
