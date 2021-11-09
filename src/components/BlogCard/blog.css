@@ -1,6 +1,4 @@
 .blog-card {
-  display: inline-block;
-  flex-wrap: wrap;
   border: 0.5px solid #cfcaca7f;
   width: 20rem;
   margin: 2rem;
@@ -8,19 +6,19 @@
   font-size: 0.8rem;
   padding-bottom: 10px;
   border-radius: 5px;
-  max-width: 55rem;
+  /* max-width: 55rem; */
   overflow: hidden;
   }
 
-.image {
-  object-fit: cover;
+.blog-picture img {
   width: 100%;
-  height: 15.625rem;  
+  height: 200px;
+  object-fit: cover;
 }
+
 
 .blog-card-container {
   text-align: center;
-  width: 100%;
 }
 
 .blog-card-container p {
