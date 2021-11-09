@@ -3,12 +3,18 @@ import { Link } from "react-router-dom";
 import CustomButton from "../../components/CustomButtton/Custom-button";
 import CustomInput from "../../components/CustomInput/Custom-Input";
 import { path } from "../../routes";
+import Home from '../../assets/Logo/Home.png'
 import './Register.css'
 
 
 const Register = (props) => {
   return (
     <div className='register'>
+
+      <div className='home'>  
+        <Link to={path.home}><img src={Home} alt='HandyMan' style={{width:'30px'}}/></Link>
+      </div>
+
         <form className='Register-form'>
         <h1>Register</h1>
         <div className = 'input'>
