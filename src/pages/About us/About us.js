@@ -15,16 +15,11 @@ function Aboutus({title,imageUrl,description}) {
         
             <div className="work">
                     <div className="about">
-                    <img className='home-image' src={Ham} alt ="backgroundpic"style={{}}/>
+                    <img className='home-image' src={Ham} alt ="backgroundpic"style={{height:'100%'}}/>
                   </div>
                   <div className="title1">  <h1>About Us</h1>
                 <h2 className="header">MY HANDYMAN</h2>
                 <p>
-                   lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
-                   lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
-                   lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
-                   lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
-                   lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
                    lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
                    lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
                    lorem sdsidhjdbfndfbd  b chdfbsdbhdhdd bhdbdjbdvd chbcdbdjskd ds cd sdkbcbksjd  nds jbdkbsjcbd cbc jcc  cscbkshcbhcbscsbhd   
