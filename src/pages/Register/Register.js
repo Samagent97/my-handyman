@@ -4,7 +4,7 @@ import CustomButton from "../../components/CustomButtton/Custom-button";
 import CustomInput from "../../components/CustomInput/Custom-Input";
 import { path } from "../../routes";
 import './Register.css'
-import handyMan2 from "../../assets/Images/handyMan2.jpeg";
+import handyMan from "../../assets/Images/handyMan.jpg";
 
 
 
@@ -37,7 +37,7 @@ const Register = (props) => {
           </div>
        </form>
     <div className='background-img'>
-        <img src={handyMan2} alt="artisan"/>
+        <img src={handyMan} alt="artisan"/>
     </div>
     </div>
 
