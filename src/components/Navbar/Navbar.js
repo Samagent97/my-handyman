@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to={path.contact}>Contact</Link>
         </li>
         <li className='links'>
-            <Link to={path.login}>Logout</Link>
+            <Link to={path.login}>Login</Link>
         </li>
       </ul>
     </div>
