@@ -1,17 +1,16 @@
 import { Component } from 'react';
-import Homepage from '../Home/Homepage';
-import Blog from '../Blog/Blog';
 import {path} from '../../routes';
-import './App.css';
 import {Switch, Route } from 'react-router-dom';
+import './App.css';
+import Homepage from '../Home/Homepage';
 import Login from '../Login/Login';
+import Profile from '../Profile/Profile';
 import Register from '../Register/Register';
+import Blog from '../Blog/Blog';
 import ViewBlog from '../ViewBlog/ViewBlog';
 import Contact from '../Contact/Contact';
-import Profile from '../Profile/Profile';
-import Aboutus from '../About us/About us';
-// import { blogger } from '../../utils/blogger';
-// import AboutUs from '../AboutUs/AboutUs'
+import Aboutus from '../About us/AboutUs';
+
 
 class App extends Component {
   //  constructor() {

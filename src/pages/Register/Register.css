@@ -3,13 +3,13 @@
     display: flex;
     justify-content: center; 
     width: 100vw;
-    height: 100%;
+    height: 100vg;
     overflow: hidden;
     /* padding: 150px 0px 150px 0px; */
     /* background-color: chartreuse;  */
 }
 .register h1{
-    color: black
+    color: #7f7f7f
 }
 .register p{
     color: black
@@ -47,7 +47,7 @@
     .Register-form{
         display: block;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         overflow: hidden;
 
     }
