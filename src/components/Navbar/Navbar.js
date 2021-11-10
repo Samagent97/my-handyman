@@ -2,11 +2,15 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import {path} from '../../routes';
 import Logo from '../../assets/Logo/Logo.png'
+import Burger from './Burger.js';
 
 const Navbar = () => {
     return (
-      
+
     <div className='navbar'>
+      <div>
+        <Burger/>
+      </div>
       <div className='link'>
         <Link to={path.home}><img src={Logo} alt='HandyMan' style={{width:'50px'}}/></Link>
       </div>

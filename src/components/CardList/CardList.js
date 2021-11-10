@@ -3,10 +3,10 @@ import Card from "../Card/Card";
 import './cardList.css';
 
 const CardList = ({ handy }) => {
-    const cardComponent = handy.map((user) => {
+    const cardComponent = handy.map((user,i) => {
         return (
             <Card
-            key={user.id} 
+            key={i} 
             id={user.id} 
             name={user.name} 
             skill={user.skill} 

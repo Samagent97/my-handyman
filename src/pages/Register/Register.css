@@ -2,51 +2,44 @@
 .register {
     display: flex;
     justify-content: center; 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     width: 100vw;
-    height: 100vh;
-
-    
-
+    height: 100%;
+    overflow: hidden;
     /* padding: 150px 0px 150px 0px; */
     /* background-color: chartreuse;  */
 }
 .register h1{
-    color: white;
+    color: black
 }
 .register p{
-    color: white;
+    color: black
 }
-.img {
-    justify-content: flex-end;
-    padding: 0rem;
-    background-position: center;
-    background-size: cover;
-    overflow: scroll;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.02rem; */
+
+.background-img {
     width: 50%;
+}
+
+.background-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .Register-form {
     display: inline-flex;
     flex-direction: column;
-    background-color: rgb(51, 49, 143);
+    background-color: white;
     justify-content: center;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.02rem;
-    padding: 100px 0px 100px 0px; */
     flex-wrap: wrap;
     width: 50%;
+    
 }
 @media only screen and (max-width: 768px){
     .register{
         display: inline;
         width: 100vw;
         height: 100vh;
+        float: none;
         
 
 
@@ -55,6 +48,7 @@
         display: block;
         width: 100vw;
         height: 100vh;
+        overflow: hidden;
 
     }
     .img{

@@ -8,13 +8,12 @@ import CustomInput from '../../components/CustomInput/Custom-Input';
 import './Homepage.css';
 
 
-
 const Homepage = () => {
   return (
     <div className="Header">
       <NavBar />
       <div className= "responsive-searchbox">
-        <CustomInput  placeholder="I am looking for ..." style={{width:"50%"}} />
+        <CustomInput  placeholder="I am looking for ..." style={{width:"60%"}} />
         <CustomButton title ="Search" style={{ width: '10%'}} />
       </div>
       <CardList handy={handy}/>

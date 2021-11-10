@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogCard from './blog-card';
+import './bloglist.css';
 
 const BlogList = ({blogger}) => {
     const cardComponent = blogger.map((user,i) =>{
@@ -14,7 +15,7 @@ const BlogList = ({blogger}) => {
         )
     })
     return(
-        <div>
+        <div className='blog-list'>
             {cardComponent}
         </div>
 

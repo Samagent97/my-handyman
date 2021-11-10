@@ -7,12 +7,15 @@ import { path } from '../../routes';
 const BlogCard = ({title,imageUrl,description}) => {
     return(
 			<div className="blog-card">
-				<img className='image' src={imageUrl} alt=''/>
+				<div className='blog-picture'>
+				<img src={imageUrl} alt='pic'/>
+				</div>
+				
 				<div className="blog-card-container">
 						<h1 className='title'>{title}</h1> 
 						<p className = "card-description">{description}</p>
 						<Link to={`${path.viewBlog}/${title}`}>
-						 <CustomButton  title ="Read more" />
+						 <CustomButton style={{width:"7rem"}} title ="Read more" />
 						</Link>
 				</div>
 			</div>
