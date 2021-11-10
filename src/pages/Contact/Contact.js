@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import CustomButton from "../../components/CustomButtton/Custom-button";
 import './Contact.css';
+import CustomInput from "../../components/CustomInput/Custom-Input";
 
 
 const Contact = (props) => {
@@ -13,12 +14,14 @@ const Contact = (props) => {
             <h1>Contact</h1>
             </div>
           <div className='responsive-contact'>
-            <textarea id='as' type="text" placeholder='Full Name' style={{width:"100%", height:"2rem"}}></textarea> 
-            <textarea id='as' type="Email" placeholder='Email' style={{width:"100%", height:"2rem"}}></textarea> 
-           <textarea id='as' variant='outlined' placeholder="Message" style={{width:"100%", height:"10rem"}}></textarea> 
+            <CustomInput id='as' type="text" placeholder='Full Name' style={{width:"100%", height:"2rem"}}/> 
+            <CustomInput id='as' type="Email" placeholder='Email' style={{width:"100%", height:"2rem"}}/> 
           </div>
+          <div>
+            <textarea id='msg' variant='outlined' placeholder="Message" style={{width:"20.9%", height:"10rem"}}></textarea> 
+            </div>
           <div className='contact-btn'>
-          <CustomButton id='is' title="Submit" style={{width:"10%", height:"2rem"}}/> 
+          <CustomButton id='is' title="Submit" style={{width:"15%", height:"2rem"}}/> 
           </div>
           
         <Footer />
