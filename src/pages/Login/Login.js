@@ -3,17 +3,19 @@ import { Link } from "react-router-dom";
 import CustomButton from "../../components/CustomButtton/Custom-button";
 import CustomInput from "../../components/CustomInput/Custom-Input";
 import { path } from "../../routes";
-import Home from '../../assets/Logo/Home.png'
+import handyMan2 from '../../assets/Images/handyMan2.jpeg'
 import './Login.css'
 
 const Login = (props) => {
   return (
     <div className='login'>
 
-      <div className='homebutton'>  
-        <Link to={path.home}><img src={Home} alt='HandyMan' style={{width:'30px'}}/></Link>
+<div className='homebutton'>  
+        <Link to="/">
+          <svg height="55" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="white" fillRule="evenodd" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9"/><path d="m2.5 7.5v7c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-7"/></g></svg>
+        </Link>
       </div>
-       
+      
       <div className="form">
         <form className="text" method="">
             <h1>Login</h1>
@@ -23,13 +25,13 @@ const Login = (props) => {
                 <br/>
                 <CustomButton title="Login" style={{width:"13.5rem",padding:"15px", }}/>
                     <p>forgot password?</p>
-                <Link to={path.register} >Don't have an account?Register</Link>
+                <p><Link to={path.register} >Don't have an account?Register</Link></p>
           </form>
       </div> 
         <div className='image'>
-              <img src="https://media.istockphoto.com/photos/group-of-young-friends-catching-up-picture-id1243622637?b=1&k=20&m=1243622637&s=170667a&w=0&h=eNN6RjTD_QjDddpxKk5j_jvQE18T-7k1wyd5as_tifw=" alt ="Background"/>
+        <img src={handyMan2} alt="artisan"/>
         </div>
-    </div>
+      </div>
   );
 }
 
