@@ -19,7 +19,6 @@
   overflow: hidden;
   width: 50%;
 }
-
 .form {
   display: inline-flex;
   flex-direction: column;
@@ -45,7 +44,7 @@
     height: 100%;
     overflow: hidden;
     font-weight: bold;
-    /* font-size: 3rem; */
+    
   }
   .image {
     display: none;
