@@ -18,7 +18,7 @@ function MobileMenu (props) {
                 <Link to={path.contact}>Contact</Link>
             </li>
             <li className='side-menu-link'>
-                <Link to={path.login}>Logout</Link>
+                <Link to={path.login}>Login</Link>
             </li>
         </ul>
             </div>
