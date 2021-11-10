@@ -28,13 +28,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    }
+}
 
-
-/* @media screen and (max-width:768px) { 
+@media screen and (max-width:768px) {
     .view-blog {
-       float: none;
-       display: flex;
-       /* justify-content: center; */
-    /* }  */ 
-/* } */
+        float: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .image-title {
+        float: none;
+        display: flex;
+        text-align: center;
+        width: 0rem;
+        margin: 0rem;
+
+}
+}
+
