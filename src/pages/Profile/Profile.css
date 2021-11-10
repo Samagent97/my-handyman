@@ -1,7 +1,7 @@
 .profile-form{
     display: inline-block;
     flex-wrap: wrap;
-    width: 20rem;
+    width: 18rem;
   }
   
   .profil-image img {
@@ -20,4 +20,8 @@
       justify-content: center;
       padding-bottom: 20px;
       padding-top: -10px;
+  }
+
+  @media screen {
+      
   }

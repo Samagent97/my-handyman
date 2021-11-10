@@ -14,11 +14,11 @@ const Profile = () =>{
         </div>
         <div className='profile-form'>
             <p>Full Name</p>
-            <CustomInput type="Text" placeholder='' style={{width:"100%", height:"2rem"}}/>
+            <CustomInput type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
             <p>Username</p>
-            <CustomInput type="Text" placeholder='' style={{width:"100%", height:"2rem"}}/>
+            <CustomInput type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
             <p>Email</p>
-            <CustomInput type="Email" placeholder='' style={{width:"100%", height:"2rem"}}/> 
+            <CustomInput type="Email" placeholder='' style={{width:"90%", height:"2rem"}}/> 
         </div>
         <div className='profile-btn'>
         <CustomButton title="Done" style={{width:"10%", height:"2rem"}}/>

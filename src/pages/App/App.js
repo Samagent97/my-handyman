@@ -10,6 +10,7 @@ import Blog from '../Blog/Blog';
 import ViewBlog from '../ViewBlog/ViewBlog';
 import Contact from '../Contact/Contact';
 import Aboutus from '../About us/AboutUs';
+import Artisan from '../Artisan/Artisan';
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
           <Route exact path={path.contact} component= {Contact} />
           <Route exact path={path.profile} component= {Profile} />
           <Route exact path={path.about} component= {Aboutus} />
+          <Route exact path={path.artisan} component= {Artisan} />
         </Switch>
       </div>
       );
