@@ -2,7 +2,6 @@ import './Card.css';
 import CustomButton from '../CustomButtton/Custom-button'
 import StarRating from '../StarRating/StarRating';
 
-
 const Card = ({name, skill, address}) => {
     return(
         <div className="card-container">
@@ -18,13 +17,12 @@ const Card = ({name, skill, address}) => {
                 <a href="url">VIEW ON MAP</a>   
             </div>
             <div className="btn">
-                <CustomButton title ="call" style = {{ width:'100%',}} />
+                <CustomButton  title ="call" style = {{ width:'100%',}}  />
              </div>
                 </div>              
           </div>
          );
-}
-
+    }
 
 export default Card;
 
