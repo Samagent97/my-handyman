@@ -23,7 +23,7 @@ const Login = (props) => {
                 <br/>
                 <CustomInput type="password" placeholder='Password' style={{width:"16rem",padding:"10px"}}/>
                 <br/>
-                <CustomButton title="Login" style={{width:"13.5rem",padding:"15px", }}/>
+                <CustomButton title="Login" style={{width:"17rem",padding:"12px", }}/>
                     <p>forgot password?</p>
                 <p><Link to={path.register} >Don't have an account?Register</Link></p>
           </form>
