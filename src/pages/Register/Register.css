@@ -40,7 +40,7 @@
         width: 100vw;
         height: 100vh;
         float: none;
-        
+        overflow: hidden;
 
 
     }
@@ -51,7 +51,7 @@
         overflow: hidden;
 
     }
-    .img{
+    .background-img img{
         display: none;
     }
 
