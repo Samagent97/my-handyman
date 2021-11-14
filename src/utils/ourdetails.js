@@ -127,6 +127,12 @@ export const ourdetails = [
             url: 'https://tender-carson-eb7c89.netlify.app/',
             githubUrl: 'https://github.com/nHub-Foundation/myHandyMan'
         },
+        {
+        
+            title: 'RoboFriends',
+            url: 'https://tender-carson-eb7c89.netlify.app/',
+            githubUrl: 'https://github.com/Seunpke0310/Robofriends'
+        },
     ],
     linkedIn: 'https://www.linkedin.com/in/triumphant-oke-026443224',
     gitHub: 'https://github.com/Seunoke0310'
@@ -167,6 +173,12 @@ export const ourdetails = [
             title: 'myHandyMan',
             url: 'https://tender-carson-eb7c89.netlify.app/',
             githubUrl: 'https://github.com/nHub-Foundation/myHandyMan'
+        },
+        {
+        
+            title: 'Robofriends',
+            url: 'https://loving-carson-116235.netlify.app/',
+            githubUrl: 'https://github.com/Kevinuyeh'
         },
     ],
     linkedIn: 'https://www.linkedin.com/in/kevin-uyeh-b7bb22176',
