@@ -10,9 +10,6 @@ import Blog from '../Blog/Blog';
 import ViewBlog from '../ViewBlog/ViewBlog';
 import Contact from '../Contact/Contact';
 import Termspage from '../Terms/Termspage';
-
-// import { blogger } from '../../utils/blogger';
-// import AboutUs from '../AboutUs/AboutUs'
 import Aboutus from '../About us/AboutUs';
 import Artisan from '../Artisan/Artisan';
 

@@ -1,14 +1,25 @@
-import React from 'react';
+import { Component } from 'react';
 import CustomButton from '../../components/CustomButtton/Custom-button';
 import NavBar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import CardList from '../../components/CardList/CardList';
-import { handy } from '../../utils/handy';
 import CustomInput from '../../components/CustomInput/Custom-Input';
 import './Homepage.css';
 
-
-const Homepage = () => {
+class Homepage extends Component {
+  constructor() {
+    super()
+    this.state ={
+      handy: [],
+    }
+  }
+  componentDidMount(){
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(response => response.json())
+    .then(users => {this.setState({handy: users}) })
+  }
+  render(){
+    const {handy} =this.state;
   return (
     <div className="Header">
       <NavBar />
@@ -19,7 +30,8 @@ const Homepage = () => {
       <CardList handy={handy}/>
       <Footer/>
     </div>
-  );
+    );
+  }
 }
 
 export default Homepage;
