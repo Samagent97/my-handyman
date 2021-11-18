@@ -6,11 +6,11 @@ const CardList = ({ handy }) => {
     const cardComponent = handy.map((user,i) => {
         return (
             <Card
-            key={i} 
-            id={user.id} 
-            name={user.name} 
-            skill={user.skill} 
-            ratings={user.ratings}
+                key={i} 
+                id={user.id} 
+                name={user.name} 
+                skill={user.skill} 
+                ratings={user.ratings}
             />
         );
     });

@@ -2,11 +2,11 @@ export const ourdetails = [
 
     
 {
-    fullName: 'Kelvin Ahemen',
+    fullName: 'Shewul Theophilus',
     stack: 'Frontend Developer',
-    email: 'ahemenkelvin2@gmail.com',
-    phone: '09065829542',
-    joinedDate: 'November 11, 2021',
+    email: 'shewulnadukwoen@gmail.com',
+    phone: '07062363949',
+    joinedDate: 'september, 2021',
     project: [
         {
         
@@ -17,10 +17,10 @@ export const ourdetails = [
         {
         title: 'Robofriends',
             url: 'https://elated-mcnulty-7c2c7c.netlify.app/',
-            githubUrl: 'https://github.com/kelvinahemen/robofriends'
+            githubUrl: 'https://github.com/shewul/Robofriends'
         },
     ],
-    linkedIn: 'https://www.linkedin.com/in/kelvin-ahemen-731437224/',
+    linkedIn: 'https://www.linkedin.com/in/shewul-nadukwoen-theophilus-13b43b224/',
     gitHub: 'https://github.com/kelvinahemen'
 },
 
