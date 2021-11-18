@@ -1,10 +1,9 @@
 import { Component } from 'react';
-import CustomButton from '../../components/CustomButtton/Custom-button';
 import NavBar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import CardList from '../../components/CardList/CardList';
-import CustomInput from '../../components/CustomInput/Custom-Input';
 import './Homepage.css';
+import SearchBox from '../../components/SearchBox/SearchBox';
 
 class Homepage extends Component {
   constructor() {
@@ -15,25 +14,24 @@ class Homepage extends Component {
     }
   }
   componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https://guarded-wildwood-57519.herokuapp.com/artisans')
     .then(response => response.json())
-    .then(users => {this.setState({handy: users}) })
+    .then(artisans => {this.setState({handy: artisans}) })
   }
 
-  onChange = (event) => {
-    this.setState({ searchfield: event.target.value })
+  onValueChange = (value) => {
+    this.setState({ searchfield: value })
   }
+  
   render(){
-    // const { handy, searchfield }=this.state;
-    const filteredHandy = this.state.handy.filter(Handy => {
-      return Handy.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    const filteredHandy = this.state.handy.filter(item => {
+      return item.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
     })
   return (
     <div className="Header">
       <NavBar />
       <div className= "responsive-searchbox">
-        <CustomInput onChange={this.onChange}  placeholder="I am looking for ..." style={{width:"50.5rem", height:"2.3rem"}} />
-        <CustomButton title ="Search" style={{ width:"9rem",height:"2.7rem" }} />
+      <SearchBox onValueChange={this.onValueChange}/>
       </div>
       <CardList handy={filteredHandy}/>
       <Footer/>

@@ -1,18 +1,39 @@
-import './SearchBox.js'
+// import './SearchBox.js'
+import { Component } from 'react';
 import './SearchBox.css'
-const SearchBox = ({style,type,placeholder,title}) => {
-    return(
-        <div>
-        <button id ="custom-button"  style={style}>
-      {title}
-      <input id ="custom-input" style = {style} type ={type} placeholder = {placeholder}  />
-    </button>
-   
-       
+import CustomButton from '../CustomButtton/Custom-button.js';
+import CustomInput from '../CustomInput/Custom-Input.js';
 
-        </div>
-      
-    );
+class SearchBox extends Component {
+    constructor(){
+        super()
+        this.state={
+            filteredHandy:""
+        }
+    }
+
+    onInputChange = e => {
+        this.setState({ filteredHandy: e.target.value })
+    }
+
+    updateHomeState = (event) => {
+        event.preventDefault();
+        if (!this.state.filteredHandy) return;
+        this.props.onValueChange(this.state.filteredHandy)
+    }
+
+        render(){
+    
+        return(
+            <form onSubmit={this.updateHomeState}>
+                <div>
+                <CustomInput onChange={this.onInputChange}  placeholder="I am looking for ..." style={{width:"25.5rem", height:"2.3rem"}} />
+                <button title="clear">X</button>
+                </div>
+                    <CustomButton type="submit" title ="Search" style={{ width:"9rem",height:"2.7rem" }} />
+            </form>
+        );
+    }
 }
 
 export default SearchBox;
