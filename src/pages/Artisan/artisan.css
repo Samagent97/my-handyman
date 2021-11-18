@@ -9,7 +9,7 @@
     display: inline-block;
     flex-wrap: wrap;
     width: 18rem;
-    margin-top: 3.9rem;
+    margin-top: 0rem;
     margin-right: 1rem;
   }
   
@@ -24,10 +24,13 @@
   .artisan-form p{
       margin: 1rem;
       text-align: justify;
+      
   }
   .artisan-form1 p{
-    margin: 1rem;
+    margin:1rem  ;
     text-align: justify;
+    
+    
 }
   .artisan-btn{
       justify-content: center;
@@ -40,4 +43,9 @@
   }
   #arp{
       margin-bottom: 0px;
+  }
+  @media only screen and  (max-width: 768px){
+    .artisan-btn{
+         width:90%;
+   }
   }
