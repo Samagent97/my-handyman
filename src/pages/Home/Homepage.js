@@ -1,25 +1,43 @@
-import React from 'react';
-import CustomButton from '../../components/CustomButtton/Custom-button';
+import { Component } from 'react';
 import NavBar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import CardList from '../../components/CardList/CardList';
-import { handy } from '../../utils/handy';
-import CustomInput from '../../components/CustomInput/Custom-Input';
 import './Homepage.css';
+import SearchBox from '../../components/SearchBox/SearchBox';
 
+class Homepage extends Component {
+  constructor() {
+    super()
+    this.state ={
+      handy: [],
+      searchfield:""
+    }
+  }
+  componentDidMount(){
+    fetch('https://guarded-wildwood-57519.herokuapp.com/artisans')
+    .then(response => response.json())
+    .then(artisans => {this.setState({handy: artisans}) })
+  }
 
-const Homepage = () => {
+  onValueChange = (value) => {
+    this.setState({ searchfield: value })
+  }
+  
+  render(){
+    const filteredHandy = this.state.handy.filter(item => {
+      return item.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    })
   return (
     <div className="Header">
       <NavBar />
       <div className= "responsive-searchbox">
-        <CustomInput  placeholder="I am looking for ..." style={{width:"50.5rem", height:"2.3rem"}} />
-        <CustomButton title ="Search" style={{ width:"7rem" }} />
+      <SearchBox onValueChange={this.onValueChange}/>
       </div>
-      <CardList handy={handy}/>
+      <CardList handy={filteredHandy}/>
       <Footer/>
     </div>
-  );
+    );
+  }
 }
 
 export default Homepage;
