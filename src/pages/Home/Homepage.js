@@ -11,6 +11,7 @@ class Homepage extends Component {
     super()
     this.state ={
       handy: [],
+      searchfield:""
     }
   }
   componentDidMount(){
@@ -18,16 +19,23 @@ class Homepage extends Component {
     .then(response => response.json())
     .then(users => {this.setState({handy: users}) })
   }
+
+  onChange = (event) => {
+    this.setState({ searchfield: event.target.value })
+  }
   render(){
-    const {handy} =this.state;
+    // const { handy, searchfield }=this.state;
+    const filteredHandy = this.state.handy.filter(Handy => {
+      return Handy.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    })
   return (
     <div className="Header">
       <NavBar />
       <div className= "responsive-searchbox">
-        <CustomInput  placeholder="I am looking for ..." style={{width:"50.5rem", height:"2.3rem"}} />
+        <CustomInput onChange={this.onChange}  placeholder="I am looking for ..." style={{width:"50.5rem", height:"2.3rem"}} />
         <CustomButton title ="Search" style={{ width:"9rem",height:"2.7rem" }} />
       </div>
-      <CardList handy={handy}/>
+      <CardList handy={filteredHandy}/>
       <Footer/>
     </div>
     );
