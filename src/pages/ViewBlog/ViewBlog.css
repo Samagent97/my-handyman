@@ -13,8 +13,9 @@
     position: absolute;
     top: 8rem;
     left: 40%;
-    font-size: 4rem;
-    /* color: rgb(61, 68, 81); */
+    font-size: 3rem;
+    color: rgb(61, 68, 81);
+    float: none;
 }
 .view-blog-description{
     text-align: center; 
@@ -34,9 +35,9 @@
     .view-blog {
         float: none;
         text-align: center;
+        font-size: xx-large;
         
     }
-    
 }
 @media screen and (max-width:768px) {
     .image-title {
@@ -45,6 +46,7 @@
         text-align: center;
         width: 0rem;
         margin: 0rem;
+        font-size:x-small;
 
 }
 }
