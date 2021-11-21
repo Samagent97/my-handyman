@@ -34,7 +34,8 @@ class Homepage extends Component {
       <SearchBox onValueChange={this.onValueChange}/>
       </div>
       <CardList handy={filteredHandy}/>
-      <Footer/>
+      <Footer/> 
+    
     </div>
     );
   }
