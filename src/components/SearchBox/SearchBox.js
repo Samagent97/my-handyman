@@ -21,8 +21,10 @@ class SearchBox extends Component {
         if (!this.state.filteredHandy) return;
         this.props.onValueChange(this.state.filteredHandy)
     }
+
     clearSearch = () => {
-        this.state.filteredHandy();
+        this.props.resetInput();
+        this.setState({filteredHandy: ""});
     }
 
         render(){
@@ -30,7 +32,7 @@ class SearchBox extends Component {
         return(
             <form onSubmit={this.updateHomeState}  className="searchBox">
                 <div className="clearSearch">
-                    <CustomInput id="cInput" onChange={this.onInputChange}  placeholder="I am looking for ..." style={{width:"25.5rem", height:"2.3rem", outline:"none"}} />
+                    <CustomInput id="cInput" onChange={this.onInputChange}  placeholder="I am looking for ..." style={{width:"25.5rem", height:"2.3rem", outline:"none"}} value={this.state.filteredHandy}/>
                     <button id="button" onClick={this.clearSearch} >x</button>
                 </div>
                     <CustomButton type="submit" title ="Search" style={{ width:"9rem",height:"2.7rem" }} />
