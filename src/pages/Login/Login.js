@@ -6,6 +6,7 @@ import { path } from "../../routes";
 import handyMan2 from '../../assets/Images/handyMan2.jpeg'
 import './Login.css'
 
+
 const Login = (props) => {
   return (
     <div className='login'>
@@ -23,7 +24,7 @@ const Login = (props) => {
                 <br/>
                 <CustomInput type="password" placeholder='Password' style={{width:"16rem",padding:"10px"}}/>
                 <br/>
-                <CustomButton title="Login" style={{width:"17rem",padding:"12px", }}/>
+                <CustomButton type="submit" title="Login" style={{width:"17rem",padding:"12px", }}/>
                     <p>forgot password?</p>
                 <p><Link to={path.register} >Don't have an account?Register</Link></p>
           </form>
