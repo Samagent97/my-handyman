@@ -17,7 +17,6 @@ const Contact = (props) => {
             <CustomInput id='as' type="text" placeholder='Full Name'/> 
             <CustomInput id='as' type="Email" placeholder='Email'/> 
             <textarea id='msg' variant='outlined' placeholder="Message"></textarea> 
-          
           <div className='contact-btn'>
             <CustomButton id='is' type="submit" title="Submit"/> 
           </div>
