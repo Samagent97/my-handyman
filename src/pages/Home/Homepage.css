@@ -4,6 +4,14 @@
     src: url("https://fonts.googleopi.com/css2?family=roboto:ital,wght@1,300&display=swap");
   }
 }
+/* .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center ;
+  width: 60vw;
+  height: 60vh;
+} */
 .responsive-searchbox {
   display: flex;
   justify-content: center;
