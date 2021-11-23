@@ -5,7 +5,6 @@ import './Termspage.css';
 import work from '../../assets/Images/Work.jpg';
 
 
-
 const Termspage = () => {
     return ( 
       <div>
