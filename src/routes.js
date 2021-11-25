@@ -8,5 +8,6 @@ export const path = Object.freeze({
 	contact: '/contact',
 	about:'/about',
 	terms:'/terms',
-	artisan:'/artisan'
+	artisan:'/artisan',
+	createBlog:'/createBlog'
 });
