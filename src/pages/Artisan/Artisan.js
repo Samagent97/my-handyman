@@ -12,24 +12,24 @@ const Artisan = () =>{
         <div className='master-form'>
         <div className='artisan-form'>
         <p id='arp'>Image Upload</p>
-            <CustomInput id='ars' type="file" placeholder='' style={{width:"90%", height:"2rem"}}/>
-            {/* <CustomButton title="upload" style={{width:"15%", height:"3rem"}}/> */}
+            <CustomInput className="ars-upload-input" type="file" placeholder='' style={{width:"90%", height:"2rem"}}/>
+            <CustomButton className="ars-upload-button" title="upload" style={{width:"25%", height:"2rem"}}/>
             <p id='arp'>Full Name</p>
-            <CustomInput id='ars' type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
+            <CustomInput  type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
             <p id='arp'>Phone Number</p>
-            <CustomInput id='ars' type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
+            <CustomInput type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
         </div>
         <div className='artisan-form1'>
             <p id='arp'>Email</p>
-            <CustomInput id='ars' type="Email" placeholder='' style={{width:"90%", height:"2rem"}}/> 
+            <CustomInput  type="Email" placeholder='' style={{width:"90%", height:"2rem"}}/> 
             <p id='arp'>Office Address</p>
-            <CustomInput id='ars' type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
+            <CustomInput  type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
             <p id='arp'>Skill</p>
-            <CustomInput id='ars' type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
+            <CustomInput  type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
             </div> 
             </div>
             <div className='artisan-btn'>
-             <CustomButton title="Submit" style={{width:"15%", height:"3rem"}}/>
+             <CustomButton className="submit-btn" title="Submit" style={{width:"15%", height:"3rem"}}/>
         </div>
         
         <Footer />

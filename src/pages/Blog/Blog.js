@@ -1,10 +1,9 @@
 import {Component} from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 // import { blogger } from '../../utils/blogger';
-import CustomInput from '../../components/CustomInput/Custom-Input';
-import CustomButton from '../../components/CustomButtton/Custom-button';
 import BlogList from '../../components/BlogList/BlogList';
 import Footer from '../../components/Footer/Footer';
+import SearchBox from '../../components/SearchBox/SearchBox';
 
 
 class Blog extends Component {
@@ -18,12 +17,15 @@ class Blog extends Component {
   componentDidMount(){
     fetch('https://guarded-wildwood-57519.herokuapp.com/artisans')
     .then(response => response.json())
-    .then(Blog => {this.setState({blogger: Blog}) })
+    .then(artisans => {this.setState({blogger: artisans}) })
   }
 
   onValueChange = (value) => {
     this.setState({ searchfield: value })
   }
+
+  resetInput = () => {
+    this.setState({searchfield:""})}
   
   render(){
     const filteredBlogger = this.state.blogger.filter(item => {
@@ -34,8 +36,7 @@ class Blog extends Component {
   return (
     <div>
       <Navbar/>
-      <CustomInput placeholder="Search" style={{width:'20.5rem'}}/>
-      <CustomButton title="Search" style={{width:"7rem"}}/>
+      <SearchBox onValueChange={this.onValueChange} resetInput={this.resetInput}/>
       <BlogList blogger={filteredBlogger}/>  
       <Footer/>
     </div>

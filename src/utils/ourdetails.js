@@ -4,15 +4,9 @@ export const ourdetails = [
 {
     fullName: 'Shewul Theophilus',
     stack: 'Frontend Developer',
-<<<<<<< HEAD
     email: 'shewulnadukwoen@gmail.com',
     phone: '07062363949',
     joinedDate: 'september, 2021',
-=======
-    email: 'ahemenkelvin2@gmail.com',
-    phone: '09065829542',
-    joinedDate: 'June 28, 2021',
->>>>>>> c0be736c546698ee5b014643c71193a685dc37ad
     project: [
         {
         

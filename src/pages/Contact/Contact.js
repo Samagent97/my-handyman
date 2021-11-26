@@ -11,19 +11,16 @@ const Contact = (props) => {
       <div>
           <Navbar />
             <div>
-            <h1>Contact</h1>
+            <h1 className="contact">Contact</h1>
             </div>
-          <div className='responsive-contact'>
-            <CustomInput id='as' type="text" placeholder='Full Name' style={{width:"100%", height:"2rem"}}/> 
-            <CustomInput id='as' type="Email" placeholder='Email' style={{width:"100%", height:"2rem"}}/> 
-          </div>
-          <div>
-            <textarea id='msg' variant='outlined' placeholder="Message" style={{width:"20.9%", height:"10rem"}}></textarea> 
-            </div>
+          <form className='responsive-contact'>
+            <CustomInput className='as' type="text" placeholder='Full Name' style={{height:"3rem"}} /> 
+            <CustomInput className='as' type="Email" placeholder='Email' style={{height:"3rem"}} /> 
+            <textarea className='msg' variant='outlined' placeholder="Message" style={{outline:"none",}}></textarea> 
           <div className='contact-btn'>
-          <CustomButton id='is' title="Submit" style={{width:"15%", height:"2rem"}}/> 
+            <CustomButton   type="submit" title="Submit" style={{width:"25rem",height:"3rem"}}/> 
           </div>
-          
+          </form> 
         <Footer />
       </div>
   
