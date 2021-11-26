@@ -15,9 +15,9 @@ class Blog extends Component {
     }
   }
   componentDidMount(){
-    fetch('https://guarded-wildwood-57519.herokuapp.com/artisans')
+    fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
-    .then(artisans => {this.setState({blogger: artisans}) })
+    .then(posts => {this.setState({blogger: posts}) })
   }
 
   onValueChange = (value) => {
@@ -29,7 +29,7 @@ class Blog extends Component {
   
   render(){
     const filteredBlogger = this.state.blogger.filter(item => {
-      return item.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+      return item.title.toLowerCase().includes(this.state.searchfield.toLowerCase());
     })
   
   
