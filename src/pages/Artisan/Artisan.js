@@ -1,19 +1,39 @@
-import React from "react";
+import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import CustomButton from "../../components/CustomButtton/Custom-button";
 import CustomInput from "../../components/CustomInput/Custom-Input";
 import './artisan.css'
+// import { Cloudinary } from "@cloudinary/url-gen";
 
-const Artisan = () =>{
-    return(
+//     const cld = new Cloudinary.Artisan({
+//     cloud: {
+//       cloudName: 'mbrag'
+//     }
+//   });
+class Artisan extends Component{
+    constructor() {
+        super()
+        this.state = {
+            imageInput:""
+        }
+    }
+    // onInputChange =(e)=>{
+    //     this.setState({imageInput:e.target.value});
+    // }
+    // onUploadButton = ()=> {
+    //     console.log(this.onInputChange)
+    //     cld.image()
+    // }
+    render(){
+            return(
         <div>
         <Navbar />
         <div className='master-form'>
         <div className='artisan-form'>
         <p id='arp'>Image Upload</p>
-            <CustomInput className="ars-upload-input" type="file" placeholder='' style={{width:"90%", height:"2rem"}}/>
-            <CustomButton className="ars-upload-button" title="upload" style={{width:"25%", height:"2rem"}}/>
+            <CustomInput onChange={this.onInputChange} className="ars-upload-input" type="file" placeholder='' style={{width:"90%", height:"2rem"}}/>
+            <CustomButton className="ars-upload-button" title="upload" onClick={this.onUploadButton} style={{width:"25%", height:"2rem"}}/>
             <p id='arp'>Full Name</p>
             <CustomInput  type="Text" placeholder='' style={{width:"90%", height:"2rem"}}/>
             <p id='arp'>Phone Number</p>
@@ -35,7 +55,8 @@ const Artisan = () =>{
         <Footer />
         </div>
 
-    );
+        );
+    }
 }
 
 export default Artisan;
