@@ -14,7 +14,7 @@ class Homepage extends Component {
     }
   }
   componentDidMount(){
-    fetch('https://guarded-wildwood-57519.herokuapp.com/artisans')
+     fetch('https://guarded-wildwood-57519.herokuapp.com/artisans')
     .then(response => response.json())
     .then(artisans => {this.setState({handy: artisans}) })
     .catch(err => {
@@ -24,7 +24,7 @@ class Homepage extends Component {
   }
 
   onValueChange = (value) => {
-    this.setState({ searchfield: value })
+    this.setState({ searchfield: value})
   }
 
   resetInput = () => {
