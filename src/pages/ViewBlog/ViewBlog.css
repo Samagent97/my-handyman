@@ -1,6 +1,7 @@
 .view-blog-summary{
     width: 30rem;
     color: #7f7f7f;
+    font-size: x-large;
     
 
 }
@@ -12,6 +13,7 @@
 .image-title{
     margin-top: -8rem;
     margin-bottom: 8rem;
+    font-size: xx-large;
     /* top: 8rem;
     left: 40%;
     font-size: 3rem;
@@ -31,6 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: large;
 }
 
 @media screen and (max-width:768px) {
