@@ -3,14 +3,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import CustomButton from "../../components/CustomButtton/Custom-button";
 import CustomInput from "../../components/CustomInput/Custom-Input";
-import './artisan.css'
-// import { Cloudinary } from "@cloudinary/url-gen";
+import './artisan.css';
 
-//     const cld = new Cloudinary.Artisan({
-//     cloud: {
-//       cloudName: 'mbrag'
-//     }
-//   });
+
 class Artisan extends Component{
     constructor() {
         super()
@@ -18,13 +13,7 @@ class Artisan extends Component{
             imageInput:""
         }
     }
-    // onInputChange =(e)=>{
-    //     this.setState({imageInput:e.target.value});
-    // }
-    // onUploadButton = ()=> {
-    //     console.log(this.onInputChange)
-    //     cld.image()
-    // }
+  
     render(){
             return(
         <div>
