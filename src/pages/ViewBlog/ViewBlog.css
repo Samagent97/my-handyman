@@ -1,7 +1,7 @@
 .view-blog-summary{
     width: 30rem;
     color: #7f7f7f;
-    font-size: x-large;
+    font-size: large;
     
 
 }
@@ -40,7 +40,7 @@
     .view-blog {
         float: none;
         text-align: center;
-        font-size:x-large;
+        font-size:xx-large;
         
     }
 }
