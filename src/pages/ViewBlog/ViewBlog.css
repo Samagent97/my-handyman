@@ -11,9 +11,9 @@
     object-fit: cover;
 }
 .image-title{
-    margin-top: -8rem;
+    margin-top: -9rem;
     margin-bottom: 8rem;
-    font-size: xx-large;
+    font-size: xxx-large;
     /* top: 8rem;
     left: 40%;
     font-size: 3rem;
@@ -40,7 +40,7 @@
     .view-blog {
         float: none;
         text-align: center;
-        font-size:xx-large;
+        /* font-size:xx-large; */
         
     }
 }
